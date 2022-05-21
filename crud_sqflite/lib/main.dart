@@ -1,3 +1,4 @@
+import 'package:crud_sqflite/add_contacts.dart';
 import 'package:flutter/material.dart';
 
 import 'demo.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const Demo(),
+      home:  const AddContacts(),
     );
   }
 }
